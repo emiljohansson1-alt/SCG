@@ -1,0 +1,8 @@
+.car1 {
+    width: 80px;
+    height: 80px;
+    background-image: url("bil1.png");
+    background-size: cover;
+    background-position: center;
+    border: none;
+}
