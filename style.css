@@ -1,8 +1,30 @@
-.car1 {
-    width: 80px;
-    height: 80px;
-    background-image: url("bil1.png");
-    background-size: cover;
-    background-position: center;
-    border: none;
+* {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: rgb(137, 137, 137);
+}
+
+.first {
+    display: flex;
+    justify-content: center; /* Centrerar horisontellt */
+    padding: 1%;
+}
+
+.first img {
+    width: 40%;
+    height: auto;
+}
+
+.galleri {
+    display: flex;
+    justify-content: center;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.länk img {
+    width:80%;  
+    height: auto;   
 }
