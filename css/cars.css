@@ -1,0 +1,96 @@
+body {
+  background: #030000;
+  background: linear-gradient(
+    0deg,
+    rgba(3, 0, 0, 1) 0%,
+    rgba(2, 24, 82, 1) 36%,
+    rgba(1, 33, 112, 1) 67%,
+    rgba(212, 9, 219, 1) 100%
+  );
+  display: flex;
+  flex-direction: column;
+  color: rgb(255, 255, 255);
+}
+
+.logo {
+  height: 75px;
+  border-radius: 15%;
+}
+
+.menu {
+  background-color: rgb(86, 86, 86);
+  color: rgb(255, 255, 255);
+  display: flex;
+  height: 100px;
+  align-items: center;
+  padding: 10px;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  list-style-type: none;
+  margin: 0;
+  gap: 10px;
+  font-size: 35px;
+}
+
+.links a {
+  color: cornsilk;
+}
+
+.content {
+  padding: 20px;
+}
+
+.car {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+}
+
+.car img {
+  width: 50%;
+}
+
+.text {
+  width: 50%;
+  font-size: 20px;
+}
+.images {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 50%;
+}
+
+.images img {
+  width: 100%;
+}
+ 
+.specs {
+  display: flex;
+  flex-direction: column;
+  
+  
+}
+
+.list {
+  
+  padding: 0;
+  font-size: 18px;
+}
+
+.specs h2 {
+  margin-bottom: 5px;
+}
+
+.specs h3 {
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+.list {
+  margin-top: 5px;
+}
