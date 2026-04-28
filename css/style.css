@@ -129,20 +129,20 @@ th,
 td {
   border: 1px solid white;
   padding: 12px;
-} 
+}
 thead {
   background-color: #333;
-} 
+}
 tbody tr:nth-child(odd) {
   background-color: #1a1a1a;
 }
 tbody tr:nth-child(even) {
   background-color: #2a2a2a;
-} 
+}
 tfoot {
   background-color: rgb(78, 1, 111);
   font-weight: bold;
-} 
+}
 tbody tr:hover {
   background-color: #444;
   transition: 0.2s;
@@ -158,8 +158,8 @@ tbody tr:hover {
   );
 }
 .light {
-  background-color: white ;
-  color: black ;
+  background-color: white;
+  color: black;
 }
 
 .light table {
@@ -184,8 +184,6 @@ tbody tr:hover {
 }
 
 @media (max-width: 600px) {
-
-
   ul {
     font-size: 18px;
     flex-direction: column;
@@ -206,25 +204,23 @@ tbody tr:hover {
     margin: 10px 0;
   }
 
- 
   .galleri img {
     width: 90%;
     margin: 10px 0;
   }
-
 
   .first {
     height: 50vh;
     background-position: center;
   }
 
- 
   table {
     width: 100%;
     font-size: 14px;
   }
 
-  th, td {
+  th,
+  td {
     padding: 8px;
   }
 }

@@ -136,8 +136,8 @@ ul {
 }
 
 .light {
-  background-color: white ;
-  color: black ;
+  background-color: white;
+  color: black;
 }
 .light ul a {
   color: black;
@@ -153,8 +153,6 @@ ul {
 }
 
 @media (max-width: 600px) {
-
-  
   .links {
     font-size: 18px;
     flex-direction: column;
@@ -175,7 +173,6 @@ ul {
     margin: 10px 0;
   }
 
-  
   .car {
     flex-direction: column;
   }
@@ -189,7 +186,6 @@ ul {
     font-size: 16px;
   }
 
-  
   .images img {
     width: 100%;
   }
