@@ -3,8 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Super Car Guides - Bugatti Chiron</title>
     <link rel="stylesheet" href="css/cars.css" />
+    <link rel="icon" type="image/png" href="bilder/SCG-logo.png" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
   </head>
   <body>
     <header>
@@ -13,31 +15,72 @@
           <img src="bilder/SCG-logo.png" alt="Logga" class="logo" />
         </a>
 
-        <ul>
+        <ul class="links">
           <li><a href="koenisegg.html">Koenigsegg</a></li>
-          <li><a href="bugatti.html">Buggati</a></li>
+          <li><a href="bugatti.html">Bugatti</a></li>
+          <li><a href="comparison.html">Jämförelse</a></li>
         </ul>
+        <button id="themeBtn" class="theme-btn">Byt tema</button>
       </nav>
     </header>
 
-    <div class="content">
-      <div class="car">
-        <div class="images">
-          <img src="bilder/bugatti2.jpg" alt="Bugatti Chiron" />
-          <img src="bilder/bugatti1.jpg" alt="Bugatti Chiron 2" />
-        </div>
+    <main>
+      <div class="content">
+        <div class="car">
+          <div class="images">
+            <img src="bilder/bugatti2.jpg" alt="Bugatti Chiron" />
+            <img src="bilder/bugatti1.jpg" alt="Bugatti Chiron 2" />
+          </div>
 
-        <div class="text">
-          <h1>Bugatti Chiron</h1>
-          <p>
-            Bugatti Chiron är en av världens mest exklusiva hyperbilar med en
-            8.0-liters W16-motor och över 1500 hästkrafter. Den är byggd för
-            extrem hastighet och lyx, och kan nå över 400 km/h. Chiron
-            kombinerar rå prestanda med komfort och avancerad teknik, vilket gör
-            den till en av de mest ikoniska sportbilarna i världen.
-          </p>
+          <div class="text">
+            <h1>Bugatti Chiron</h1>
+            <p>
+              Bugatti Chiron är en av världens mest exklusiva hyperbilar med en
+              8.0-liters W16-motor och över 1500 hästkrafter. Den är byggd för
+              extrem hastighet och lyx, och kan nå över 400 km/h. Chiron
+              kombinerar rå prestanda med komfort och avancerad teknik, vilket
+              gör den till en av de mest ikoniska sportbilarna i världen.
+            </p>
+            <div class="specs">
+              <h2>Bugatti Chiron</h2>
+
+              <h3>Specifikationer</h3>
+
+              <ul class="list">
+                <li>Hästkrafter: 1500 hk</li>
+                <li>Motor: 8,0L W16 quad-turbo</li>
+                <li>0-100 km/h: ca 2,4 sek</li>
+                <li>Toppfart: ca 420 km/h (elektroniskt begränsad)</li>
+                <li>Växellåda: 7-växlad dubbelkopplingslåda</li>
+                <li>Bränsle: Bensin</li>
+                <li>Produktion: ca 500 exemplar</li>
+                <li>Pris: ca 25-30 miljoner kr</li>
+                <li>Drivning: Fyrhjulsdrift</li>
+                <li>Fokus: Lyx och extrem prestanda</li>
+              </ul>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
+    </main>
+    <footer class="bas-footer">
+      <div class="footer-grid">
+        <div>
+          <h4>Om oss</h4>
+          <p>
+            Vi jämför världens främsta superbilar för att hjälpa dig hitta den
+            som passar dig bäst. Genom att analysera prestanda, design och
+            körupplevelse gör vi det enklare att välja rätt bil utifrån dina
+            behov.
+          </p>
+        </div>
+        <div>
+          <h4>Kontakt</h4>
+          <p>Mejl: info@supercarguides.se<br />Tel: 08-678 901</p>
+        </div>
+      </div>
+      <p class="copy">&copy; 2026 Super Car Guides</p>
+    </footer>
+    <script src="script.js"></script>
   </body>
 </html>

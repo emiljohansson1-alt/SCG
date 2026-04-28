@@ -3,16 +3,19 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Super Car Guides</title>
+    <title>Super Car Guides - Jämförelse</title>
+
     <link rel="stylesheet" href="css/style.css" />
     <link rel="icon" type="image/png" href="bilder/SCG-logo.png" />
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
   </head>
 
-  <body>
+  <body class="comparison">
     <header>
       <nav class="menu">
-        <img src="bilder/SCG-logo.png" alt="logo" class="logo" />
+        <a href="index.html">
+          <img src="bilder/SCG-logo.png" alt="logo" class="logo" />
+        </a>
 
         <ul>
           <li><a href="koenisegg.html">Koenigsegg</a></li>
@@ -22,15 +25,63 @@
         <button id="themeBtn" class="theme-btn">Byt tema</button>
       </nav>
     </header>
-  
-     <main>
-    <div class="first"></div>
 
-    <div class="galleri">
-      <img src="bilder/koenisegg_jesko.jpg" alt="Koenigsegg Jesko" />
-      <img src="bilder/buggatisol.jpg" alt="Bugatti Chiron" />
-    </div>
-     </main>
+    <main>
+ 
+  <table>
+    <thead>
+  <tr>
+    <th>Funktion</th>
+    <th>Bugatti Chiron</th>
+    <th>Koenigsegg Jesko</th>
+  </tr>
+</thead>
+
+<tbody>
+  <tr>
+    <td>Rattvärme</td>
+    <td>Ja</td>
+    <td>Nej</td>
+  </tr>
+
+  <tr>
+    <td>Stolar</td>
+    <td>Elektriska, läder, massage</td>
+    <td>Racing, minimal komfort</td>
+  </tr>
+
+  <tr>
+    <td>Infotainment</td>
+    <td>Lyxsystem med skärm</td>
+    <td>Mycket begränsat</td>
+  </tr>
+
+  <tr>
+    <td>AC / Klimat</td>
+    <td>Automatisk 2-zons klimat</td>
+    <td>Minimal, fokus på vikt</td>
+  </tr>
+
+  <tr>
+    <td>Körlägen</td>
+    <td>Comfort, Sport, Top Speed</td>
+    <td>Track + Performance lägen</td>
+  </tr>
+
+  <tr>
+    <td>Ljudisolering</td>
+    <td>Mycket hög (lyxbil)</td>
+    <td>Låg (för vikt & prestanda)</td>
+  </tr>
+</tbody>
+
+<tfoot>
+  <tr>
+    <td colspan="3">Jämförelse av komfort och teknik mellan två hyperbilar</td>
+  </tr>
+</tfoot>
+  </table>
+</main>
 
     <footer class="bas-footer">
       <div class="footer-grid">
@@ -45,6 +96,7 @@
       </div>
       <p class="copy">&copy; 2026 Super Car Guides </p>
     </footer>
+
     <script src="script.js"></script>
   </body>
 </html>
