@@ -3,8 +3,8 @@ body {
   display: flex;
   flex-direction: column;
   font-family: "Montserrat", sans-serif;
+  color: rgb(255, 255, 255);
 }
-
 
 .logo {
   width: 75px;
@@ -16,7 +16,8 @@ h1 {
   margin-top: 20px;
 }
 p {
-  text-align: center;}
+  text-align: center;
+}
 
 .menu {
   background-color: rgb(86, 86, 86);
@@ -167,8 +168,25 @@ tbody tr:hover {
   );
 }
 .light {
-  background-color: white;
+  background: white;
   color: black;
+}
+
+.light a {
+  color: black !important;
+}
+
+.light .menu {
+  background-color: #eaeaea;
+}
+
+.light .bas-footer {
+  background-color: #eaeaea;
+  color: black;
+}
+
+.light .galleri {
+  background: white;
 }
 
 .light table {
@@ -179,16 +197,38 @@ tbody tr:hover {
 .light td {
   border-color: black;
 }
-.light ul a {
+
+.light thead {
+  background-color: #dcdcdc;
+}
+
+.light tbody tr:nth-child(odd) {
+  background-color: #f2f2f2;
+}
+
+.light tbody tr:nth-child(even) {
+  background-color: #e6e6e6;
+}
+
+.light tfoot {
+  background-color: #cccccc;
   color: black;
 }
 
-.light .menu {
-  background-color: #eaeaea;
+.light h1,
+.light p,
+.light li {
+  color: black;
 }
 
-.light footer {
-  background-color: #eaeaea;
+.light ul a,
+.light .links a {
+  color: black !important;
+}
+
+.light table,
+.light th,
+.light td {
   color: black;
 }
 

@@ -137,20 +137,41 @@ ul {
 }
 
 .light {
-  background-color: white;
+  background: white;
   color: black;
 }
-.light ul a {
-  color: black;
+
+.light a {
+  color: black !important;
 }
 
 .light .menu {
   background-color: #eaeaea;
 }
 
-.light footer {
+.light .bas-footer {
   background-color: #eaeaea;
   color: black;
+}
+
+.light .text,
+.light .specs {
+  color: black;
+}
+
+.light .images {
+  background: white;
+}
+
+.light h1,
+.light p,
+.light li {
+  color: black;
+}
+
+.light ul a,
+.light .links a {
+  color: black !important;
 }
 
 @media (max-width: 600px) {
