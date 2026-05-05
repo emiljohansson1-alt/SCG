@@ -5,10 +5,18 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
+
 .logo {
   width: 75px;
   border-radius: 15%;
 }
+
+h1 {
+  text-align: center;
+  margin-top: 20px;
+}
+p {
+  text-align: center;}
 
 .menu {
   background-color: rgb(86, 86, 86);
@@ -29,6 +37,7 @@ ul {
   font-size: 35px;
 }
 ul a {
+  text-decoration: none;
   color: cornsilk;
 }
 
