@@ -143,6 +143,13 @@ body {
   background: #0693ad;
 }
 
+.contact-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 0;
+}
+
 ul {
   margin-left: 15px;
 }
