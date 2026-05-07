@@ -15,7 +15,9 @@
   <body>
     <header>
       <nav class="menu">
-        <img src="bilder/SCG-logo.png" alt="logo" class="logo" />
+        <a href="index.html">
+          <img src="bilder/SCG-logo.png" alt="logo" class="logo" />
+        </a>
 
         <ul>
           <li><a href="koenisegg.html">Koenigsegg</a></li>
@@ -31,10 +33,14 @@
       <p>Upptäck och jämför världens snabbaste hyperbilar</p>
       <div class="first"></div>
 
-      <div class="galleri">
-        <img src="bilder/koenisegg_jesko.jpg" alt="Koenigsegg Jesko" />
-        <img src="bilder/buggatisol.jpg" alt="Bugatti Chiron" />
-      </div>
+      <section class="galleri">
+        <a href="koenisegg.html"
+          ><img src="bilder/koenisegg_jesko.jpg" alt="Koenigsegg Jesko"
+        /></a>
+        <a href="bugatti.html"
+          ><img src="bilder/buggatisol.jpg" alt="Bugatti Chiron"
+        /></a>
+      </section>
     </main>
 
     <footer class="bas-footer">
@@ -51,6 +57,15 @@
         <div>
           <h2>Kontakt</h2>
           <p>Mejl: info@supercarguides.se<br />Tel: 08-678 901</p>
+        </div>
+        <div>
+          <h2>Kontakta oss</h2>
+          <form class="footer-form">
+            <input type="text" placeholder="Namn" required />
+            <input type="email" placeholder="E-post" required />
+            <textarea placeholder="Meddelande" rows="4" required></textarea>
+            <button type="submit">Skicka</button>
+          </form>
         </div>
       </div>
       <p class="copy">&copy; 2026 Super Car Guides</p>

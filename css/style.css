@@ -70,17 +70,27 @@ ul a {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  align-items: center;
   padding-left: 5%;
   padding-right: 5%;
   border-top: 5px black solid;
   border-bottom: 5px black solid;
-  align-items: center;
 }
-.galleri img {
-  border-radius: 10%;
+
+.galleri a {
   width: 40%;
-  justify-content: center;
   margin: 5%;
+}
+
+.galleri a img {
+  width: 100%;
+  border-radius: 10%;
+  display: block;
+  transition: transform 0.3s ease;
+}
+
+.galleri a img:hover {
+  transform: scale(1.05);
 }
 
 .bas-footer {
@@ -104,12 +114,32 @@ ul a {
   font-size: 0.8rem;
   opacity: 0.6;
 }
-.galleri img {
-  transition: transform 0.3s ease;
+
+.footer-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
-.galleri img:hover {
-  transform: scale(1.05);
+.footer-form input,
+.footer-form textarea {
+  padding: 8px;
+  border: none;
+  border-radius: 5px;
+  font-family: inherit;
+}
+
+.footer-form button {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background: #04738a;
+  color: white;
+  cursor: pointer;
+}
+
+.footer-form button:hover {
+  background: #0693ad;
 }
 
 .theme-btn {

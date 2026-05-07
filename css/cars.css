@@ -116,6 +116,33 @@ body {
   opacity: 0.6;
 }
 
+.footer-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.footer-form input,
+.footer-form textarea {
+  padding: 8px;
+  border: none;
+  border-radius: 5px;
+  font-family: inherit;
+}
+
+.footer-form button {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background: #04738a;
+  color: white;
+  cursor: pointer;
+}
+
+.footer-form button:hover {
+  background: #0693ad;
+}
+
 ul {
   margin-left: 15px;
 }
