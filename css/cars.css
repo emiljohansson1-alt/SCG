@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background: #030000;
   background: linear-gradient(
@@ -19,12 +23,16 @@ body {
 }
 
 .menu {
-  background-color: rgb(86, 86, 86);
-  color: rgb(255, 255, 255);
+  background: rgba(78, 78, 78, 0.7);
+  backdrop-filter: blur(10px);
+  color: white;
   display: flex;
   height: 100px;
   align-items: center;
-  padding: 10px;
+  padding: 10px 20px;
+  border-radius: 15px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 0 15px rgba(0, 140, 255, 0.6);
 }
 
 .links {
@@ -37,9 +45,16 @@ body {
   font-size: 35px;
 }
 
+ul a,
 .links a {
   text-decoration: none;
   color: cornsilk;
+  transition: 0.3s;
+}
+
+ul a:hover,
+.links a:hover {
+  color: cyan;
 }
 
 .content {
@@ -68,7 +83,13 @@ body {
 }
 
 .images img {
+  border-radius: 15px;
   width: 100%;
+}
+
+.images img:hover {
+  transform: scale(1.03);
+  box-shadow: 0 0 25px rgba(0, 140, 255, 0.7);
 }
 
 .specs {
@@ -163,6 +184,7 @@ ul {
   border: 1px solid white;
   cursor: pointer;
   font-size: 14px;
+  border-radius: 15px;
 }
 
 .theme-btn:hover {
